@@ -4,6 +4,7 @@ import reportWebVitals from './util/reportWebVitals'
 
 import App from './view/App'
 import './assets/design/index.less'
+// require('@/api/plugins')
 
 ReactDOM.render(
   <React.StrictMode>

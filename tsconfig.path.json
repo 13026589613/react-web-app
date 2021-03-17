@@ -1,0 +1,54 @@
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["./*"],
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@common/*": ["src/common/*"],
+      "@c/*": ["src/components/*"],
+      "@hook/*": ["src/hook/*"],
+      "@view/*": ["src/view/*"],
+      "@store/*": ["src/store/*"],
+      "@util/*": ["src/util/*"]
+    },
+    "types": [
+      "webpack-env",
+      "jest"
+    ]
+  }
+}
+
+// {
+//   "extends": "./tsconfig.path.json",
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "noEmit": true,
+//     "jsx": "react-jsx",
+//     "baseUrl": ".",
+//     "types": [
+//       "webpack-env",
+//       "jest"
+//     ]
+//   },
+//   "include": [
+//     "src"
+//   ]
+// }
